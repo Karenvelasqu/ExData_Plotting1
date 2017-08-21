@@ -18,6 +18,6 @@ head(data1)
 
 #Create plot
 
-png("plot1.png", width=480, height=480)
+png("plot2.png", width=480, height=480)
 plot(data1$Global_active_power~data1$Data_Time,type="l",ylab="Global active power (kilowatts",xlab="")
 dev.off
