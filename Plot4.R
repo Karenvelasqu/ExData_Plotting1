@@ -40,4 +40,4 @@ with(data2, plot(data2$Data_Time, data2$Sub_metering_1, type="l", xlab="", ylab=
 # Plot4
 with(data2, plot(data2$Data_Time, data2$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power"))
 
-> dev.off()
+dev.off()
